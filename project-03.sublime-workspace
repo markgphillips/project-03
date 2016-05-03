@@ -1,0 +1,856 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"array"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_scripts"
+			],
+			[
+				"wp_enques",
+				"wp_enqueue_style"
+			],
+			[
+				"the_title",
+				"the_title"
+			],
+			[
+				"wp_enqu",
+				"wp_enqueue_script"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_scripts"
+			],
+			[
+				"wall",
+				"wallWidth"
+			],
+			[
+				"get_templ",
+				"get_template_directory_uri"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3583,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 1579,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 163.0,
+		"last_filter": "install p",
+		"selected_items":
+		[
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"feth",
+				"Fetch: Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"r",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pakage resopen",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"snip	",
+				"Snippet: html"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"hmtl",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"hml",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"setcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mard",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"fetchp",
+				"Fetch: Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fethpa",
+				"Fetch: Package"
+			],
+			[
+				"fet pa",
+				"Fetch: Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"synmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntaxmarkdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sytnmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"marked",
+				"Marked"
+			],
+			[
+				"synt",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntaxmulti",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"MARK",
+				"Set Syntax: Markdown"
+			],
+			[
+				"MARKDOWN",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"installpack",
+				"Package Control: Install Package"
+			],
+			[
+				"syntmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"/clear",
+			"clear",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/4web/Desktop/sandbox/front-end-dev/project-03",
+		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/css",
+		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/img"
+	],
+	"file_history":
+	[
+		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/index.html",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/1456DDB0-186D-467D-BBED-7817930119E3/.htaccess",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/3C51680D-4CA1-45E0-92C1-C9B3A93D3823/wp-config.php",
+		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/css/styles.css",
+		"/Users/4web/Desktop/sandbox/front-end-dev/project-02/index.html",
+		"/Users/4web/Desktop/sandbox/front-end-dev/02-css-basics/css/style.css",
+		"/Users/4web/Desktop/sandbox/front-end-dev/02-css-basics/index.html",
+		"/Users/4web/Downloads/2-basic-selectors/1-intro-to-selectors/start/index.html",
+		"/Users/4web/Desktop/sandbox/front-end-dev/make-website/index.html",
+		"/Users/4web/Desktop/sandbox/front-end-dev/make-website/css/main.css",
+		"/Users/4web/Desktop/test/wp-config-sample.php",
+		"/Users/4web/Desktop/sandbox/front-end-dev/css/main.css",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/92158119-02D3-4FAE-87FE-6C4EB8B02A7B/functions.php",
+		"/Users/4web/.tuxguitar-1.2/history.properties",
+		"/Users/4web/.tuxguitar-1.2/config.properties",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/CD14F72D-9ED2-4AF0-B4E4-54DC5AC4D647/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/DC7884A3-3B5A-46B7-909F-B186EBCCA3C7/robots.txt",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/09E190B5-A1C5-4AAC-A1B5-EB4E8364DA83/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/B848FBDD-9A3A-4AEF-AB2C-A04D76A53B34/responsive-menu.js",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/0AF85796-0B1C-4604-B83F-7CA79A05AAA6/style.css",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/19E36B86-6538-412D-91DC-663B7299B8BC/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/DEAB602A-298A-424C-A7B8-FE930266F3EE/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/C71A301D-172E-4C56-84F1-A8141C079CCA/wp-config.php",
+		"/Users/4web/Downloads/WordPress-Theme-Dev---Treehouse/final-theme/treehouse-portfolio/screenshot.png",
+		"/Users/4web/Sites/local-dev/foundationpress/wp-content/themes/foundationpress/functions.php",
+		"/Users/4web/Sites/local-dev/foundationpress/wp-content/themes/foundationpress/art.php",
+		"/Users/4web/Sites/local-dev/foundationpress/wp-content/themes/foundationpress/header.php",
+		"/Users/4web/Sites/local-dev/foundationpress/wp-content/themes/foundationpress/style.css",
+		"/Users/4web/Sites/local-dev/foundationpress/wp-content/themes/foundationpress/front-page.php",
+		"/Users/4web/Sites/local-dev/genesis/wp-content/themes/hueman-child/style.css",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/83469DDC-2793-4CAB-9C60-99A6BE9870FD/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/520F2017-DB86-4436-A9F4-3C5EB13D0F32/functions.php",
+		"/Users/4web/Downloads/icomoon/style.css",
+		"/Users/4web/Sites/temple-of-beauty/temple-of-beauty-custom.css",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/26E5D29E-E190-4C99-BA90-EFD4110507BF/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/81E6181C-DD7F-4214-B19E-9988E42A9409/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/4DE10F8F-3297-4682-8F2D-28B3D82386CA/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/F7E7EB60-E510-4E39-B5C8-653E44350C38/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/7A85C5A4-E077-49BE-913D-2CD967992EC0/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/9F13685A-2633-4751-941D-61023BE449B6/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/127A846E-1A29-4A0D-872A-61252C0EC2E8/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/149B5129-41C0-4B7A-9C23-F2177674091F/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/E8E7FF02-F89B-482F-8302-0B353DA3CF12/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/2F1F998E-D79B-4566-B696-4B3DFB3228B0/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/ADE11BEA-EA2F-4629-953E-80112DC60F51/functions.php",
+		"/Users/4web/Desktop/temple-of-beauty-contract.md",
+		"/Users/4web/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/4web/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/4web/Library/Application Support/Sublime Text 3/Packages/User/openinbrowser.sublime-settings",
+		"/Users/4web/Sites/local-dev/genedev.sublime-project",
+		"/Users/4web/Sites/local-dev/genesis/wp-content/themes/genedev/images",
+		"/Users/4web/Sites/local-dev/genesis/wp-content/themes/genedev/page_landing.php",
+		"/Users/4web/Sites/local-dev/genesis/wp-content/themes/genedev/home.php",
+		"/Users/4web/Sites/local-dev/genesis/wp-content/themes/genedev",
+		"/Users/4web/Sites/local-dev/genesis/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/2532D682-E645-4837-9A39-D3D496B0D169/wp-config.php",
+		"/Users/4web/Downloads/wordpress/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/67D8BFD0-3C2A-4D4D-BDB9-1A9BEB6CC8E5/wp-config.php",
+		"/Users/4web/Downloads/treehouse-hueman-genesis/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/F55E8087-7D3E-47A7-A254-447189ECC733/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/FE8D8885-A17A-4F4E-A598-915F7A782B06/configuration.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/4169E54F-CF8E-4427-A4D2-615E4A1EE11A/style.css",
+		"/Users/4web/Library/Caches/TemporaryItems/screenshot.png",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/9D449173-7DCE-4B04-96F0-71D8E1E60B76/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/4934800B-ECA6-49CB-835E-938E6BDE3AC8/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/4A3886C3-B2B9-4890-BC74-7E5219585D31/wp-config-sample.php",
+		"/Users/4web/Downloads/pm-palette.scss",
+		"/Users/4web/Sites/local-dev/infire/infire.sublime-project",
+		"/Users/4web/Documents/Web Design Resources/Documents/4web-design-contract.md",
+		"/Users/4web/Sites/sandbox/Test/index.html",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/18FE895E-D520-4135-89F5-3F60623B81DE/functions.php",
+		"/Users/4web/Downloads/Call of Duty Black Ops 3 continues the zany futuri",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/40E5A628-D782-4FC7-BBAF-CC014435429C/index.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/12350DB2-3120-4EFA-B6AB-0804CA9CC338/functions.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/27B68ACB-C169-4C4D-BB66-EBA569C9926B/wp-config.php",
+		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/07942705-3BFC-4505-A72E-91FAC0C0607E/style.css",
+		"/Users/4web/Copy/wordpress-course/course-files/WordPress-Theme-Dev---Treehouse 2/final-theme/treehouse-portfolio/functions.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/archive.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/single.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/home.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/comments.php",
+		"/Users/4web/Copy/wordpress-course-home/course-files/WordPress-Theme-Dev---Treehouse 2/static-theme/blog.html",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/functions.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/single-portfolio.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/page-sidebar-left.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/page-portfolio.php",
+		"/Users/4web/Copy/wordpress-course/course-files/WordPress-Theme-Dev---Treehouse 2/static-theme/index.html",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/page.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/header.php",
+		"/Users/4web/Copy/wordpress-course/course-files/WordPress-Theme-Dev---Treehouse/static-theme/index.html",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/index.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/js/app.js",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/footer.php",
+		"/Users/4web/Copy/wordpress-course/press/wp-content/themes/treehouse-portfolio/style.css",
+		"/Users/4web/Copy/wordpress-course/course-files/WordPress-Theme-Dev---Treehouse/static-theme/assets/css/styles.css",
+		"/Users/4web/Copy/beginning-javascript/ch2_example2.html",
+		"/Users/4web/Copy/beginning-javascript/ch2_example3.html",
+		"/Users/4web/Copy/beginning-javascript/ch2_example1.html",
+		"/Users/4web/Copy/beginning-javascript/ch1_example3.html",
+		"/Users/4web/Copy/beginning-javascript/ch1_example2.html",
+		"/Users/4web/Copy/beginning-javascript/ch1_example1.html",
+		"/Users/4web/Copy/beginning-javascript/ch2_example4.html",
+		"/Users/4web/Copy/beginning-javascript/ch2_example8.html",
+		"/Users/4web/Copy/beginning-javascript/c02/js/array-literal.js",
+		"/Users/4web/Copy/beginning-javascript/ch3_example4.html",
+		"/Users/4web/Copy/beginning-javascript/ch3_example3.html",
+		"/Users/4web/Copy/beginning-javascript/sandbox.html",
+		"/Users/4web/Copy/beginning-javascript/ch3_example2.html",
+		"/Users/4web/Copy/beginning-javascript/ch3_example1.html",
+		"/Users/4web/Copy/beginning-javascript/ch2_example9.html",
+		"/Users/4web/Copy/beginning-javascript/ch2_exercise2.html",
+		"/Users/4web/Copy/beginning-javascript/ch2_exercise1.html",
+		"/Users/4web/Copy/beginning-javascript/array-practice.js",
+		"/Users/4web/Copy/beginning-javascript/array-practice.html",
+		"/Users/4web/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/4web/Copy/javascriptbook/c02/array-literal.html",
+		"/Users/4web/Copy/javascriptbook/lionel.js",
+		"/Users/4web/Copy/javascriptbook/lionel.html",
+		"/Users/4web/Copy/javascriptbook/c02/js/arithmetic-operator.js",
+		"/Users/4web/Copy/javascriptbook/c02/js/string-operator.js",
+		"/Users/4web/Copy/javascriptbook/c02/string-operator.html",
+		"/Users/4web/Copy/javascriptbook/c02/arithmetic-operator.html",
+		"/Users/4web/Copy/javascriptbook/c02/js/update-array.js",
+		"/Users/4web/Copy/javascriptbook/c02/js/array-literal.js",
+		"/Users/4web/Copy/javascriptbook/c02/array-constructor.html",
+		"/Users/4web/Copy/javascriptbook/c02/js/array-constructor.js",
+		"/Users/4web/Copy/beginning-javascript/ch2_example5.html",
+		"/Users/4web/Copy/WebstormProjects/javascriptbook/c02/numeric-variable.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			"/Users/4web/Sites/local-dev/infire/fire"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http://4web.ca",
+			"timezone",
+			"responsive-menu",
+			"ms",
+			"modern-studio",
+			"Modern Studio",
+			"Modern Studio Pro",
+			"Innovative Fire and Safety",
+			"Centric",
+			"pro red",
+			"ff473a",
+			"function is_super_admin",
+			"function_is_super_admin",
+			"function wp_head",
+			"The Lump O' Coal Co.",
+			"340px",
+			"#e8554e",
+			"#e5554e",
+			"avatar",
+			"wpt-avatar",
+			"font-size: 18px;",
+			"font-size: 12px;",
+			">\n",
+			"h3",
+			"utf8mb4_unicode_ci",
+			"utf8",
+			"title-area",
+			"database",
+			"jm_lessard",
+			".site-header",
+			"site header",
+			"header",
+			"#7F7F7F",
+			"li {",
+			"li",
+			"dd {",
+			"dd",
+			"h4",
+			"970",
+			"750",
+			"Copyblogger",
+			"phillips",
+			"Copyblogger",
+			"btn",
+			"authority-line",
+			"mycb",
+			"\"",
+			"sand",
+			"http",
+			"https",
+			"DG Valve Systems",
+			"orange",
+			"summerstone",
+			"post",
+			"info",
+			"ssl",
+			"forms",
+			"froms",
+			"dl {",
+			"dd {",
+			"dd",
+			"dt",
+			"your",
+			"max-width: 1139px",
+			"clear",
+			"home-cta",
+			"6bd5f1",
+			"edmonton-area-home",
+			"p",
+			"Pro-Tec Systems Ltd.",
+			"title-area",
+			".title-area",
+			"#333",
+			"A Seedy Affair\n\nSeeds are so tiny but complex little powerhouses.\nSherrie Benson and \nBarry Greig from the Devonian Botanic Garden will address various aspects of working with seeds including the logistics of seed collection, seed cleaning, and seed storage. The physiology of a seed and seed propagation techniques such as seed stratification,\n scarification and acid treatment will also be addressed. The value of Heirloom seeds will also be featured.\n\nIn the Atrium \n\n 1) Winterscapes\n: with Neil Lang (EHS) and Aurea Siemens (City of Edmonton)\n\n  2) Joyce Fuerst\nof Pine Cone Plus: \n\n<blockquote>\n  “Get the jump on Christmas for home decor and gift giving of fresh greens made up as wreaths, door hangers and outdoor planter pots, all enhanced with colorful bows\n  and bright berries.”\n</blockquote>\n\n 3)Workshop Registration : registration table with Lori Holowaychuk\n\n4) Photograph Display and group sign-up table:\ntalk photography with Kaye Ly\n\n\n\n\n5)Have a coffee and socialize with fellow gardeners",
+			"th",
+			"td",
+			"search",
+			"site-title",
+			"site-teitle",
+			"modernizr",
+			"modernizr_js",
+			"foundation",
+			"foundation_css",
+			"0.9",
+			".comment-respond h3,\n.entry-comments h3,\n.widget-title ",
+			"#60cd69",
+			"name",
+			"Name",
+			"name",
+			"Name",
+			"name",
+			"4",
+			"data",
+			"</table>",
+			"<td>",
+			"<span>",
+			"<br>",
+			"<br>\n<br>\n<br>",
+			"4WEB.CA",
+			"</table>\n\n\n</table>",
+			"<td class=\"tablerightdown\">",
+			"<td class=\"tableleftdown\">",
+			"<td class=\"tableleft\">",
+			"<td class=\"tableright\">",
+			"<td width=\"150\" class=\"tableleft\">",
+			" class=\"basictext\"",
+			"<span class=\"basictext\">    ",
+			"</span>",
+			"</tr>",
+			"</td>",
+			"<td>",
+			"<tr>",
+			"<table>",
+			"4WEB.CA",
+			"</table>\n    \n    \n    </table>",
+			"</tr>",
+			"<td>",
+			"</td>",
+			"<tr>",
+			"<table>",
+			"</span>",
+			"<span>",
+			" class=\"tableright\"",
+			" class=\"tableleft\"",
+			" class=\"unsorted02\"",
+			" class=\"basictext\"",
+			"do you ",
+			"linux"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1922,
+								1922
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 394.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								524,
+								524
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "Packages/Markdown Preview/Markdown.sublime-build",
+	"project": "project-03.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ch2_example8",
+				"ch2_example8.html"
+			],
+			[
+				"ch2_example4",
+				"ch2_example4.html"
+			],
+			[
+				"ind",
+				"css-basics/index.html"
+			],
+			[
+				"style",
+				"css-basics/css/style.css"
+			],
+			[
+				"wp-conf",
+				"wp-config-sample.php"
+			],
+			[
+				"index",
+				"finish/c01/index.html"
+			],
+			[
+				"scrpt",
+				"scripts.js"
+			],
+			[
+				"black",
+				"blackberry.scss"
+			],
+			[
+				"css/main",
+				"css/main.css"
+			],
+			[
+				"css",
+				"main.scss"
+			],
+			[
+				"",
+				"index.html"
+			],
+			[
+				"main.cs",
+				"css/main.css"
+			],
+			[
+				"main.css",
+				"how-to-make-a-website/css/main.css"
+			],
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				"header",
+				"inc/header.php"
+			],
+			[
+				"con",
+				"contact.php"
+			],
+			[
+				"shir",
+				"shirts.php"
+			],
+			[
+				"inii",
+				"slick/slickinit.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"slickini",
+				"slick/slickinit.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/sandbox/front-end-dev/project-2/project-02.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
