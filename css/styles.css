@@ -3,9 +3,9 @@
 }
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', serif;
   color: #8693a0;
-  font-size: .9em;
+  font-size: 1em;
 }
 
 form {
@@ -16,8 +16,8 @@ form {
 }
 
 #form-header h1 {
-  font-size: 1.25em;
-  background: #2d3945;
+  font-size: 1.5em;
+  background: #fa3a00;
   color: #fff;
   margin: 0;
   padding: 1.3em;
@@ -35,7 +35,7 @@ form {
 }
 
 h2, legend {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: bold;
   color: #2d3945;
 }
@@ -71,7 +71,7 @@ input, button, textarea, select {
   border-radius: 3px;
 }
 
-input[placeholder="Required"] {
+input[placeholder] {
   text-align: right;
   font-size: .8em;
   font-style: italic;
@@ -80,6 +80,13 @@ input[placeholder="Required"] {
 
 label {
   display: block;
+}
+
+select {
+  background: url('../img/arrow.svg') no-repeat #edeeef 95% center;
+  background-size: 1em;
+  margin-right: 1em;
+  color: #b2b2b2;
 }
 
 #zip {
@@ -95,4 +102,9 @@ label {
 #newsletter input[type="radio"] {
   display: inline;
   width: initial;
+}
+
+button {
+  background: #fa3a00;
+  color: #fff;
 }
