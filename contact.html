@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Project 3 - Online Registration Form | Mark Phillips</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -14,11 +14,15 @@
         <h1>The Code Review</h1>
       </div>
 
+      <div id="form-intro">
+        <h2>Signup for our newsletter</h2>
+        <p>Get the latest news on how your code is doing right in your inbox</p>
+        <hr>
+      </div>
+
       <form action="contact-me.html" method="post">
 
-        <h2>Signup for our newsletter</h2>
-
-        <p>Get the latest news on how your code is doing right in your inbox</p>
+        <hr>
 
         <fieldset id="contact-information">
 
@@ -41,6 +45,7 @@
 
           <label for="state">State</label>
           <select name="state" id="state">
+            <option value="" disabled selected>Choose State</option>
             <optgroup label="Western">
               <option value="California">California</option>
               <option value="Oregon">Oregon</option>
@@ -57,6 +62,8 @@
           <input type="text" name="zip" id="zip">
 
         </fieldset>
+
+        <hr>
 
         <fieldset id="newsletter">
 
