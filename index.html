@@ -27,7 +27,7 @@
             <legend>Contact Information</legend>
 
             <label for="name">Full Name</label>
-            <input type="text" name="name" id="name" placeholder="required" required>
+            <input type="text" name="name" id="name" placeholder="required" required pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" title="firstname lastname">
 
             <label for="email">Email Address</label>
             <input type="email" name="email" id="email" placeholder="required" required>
@@ -45,7 +45,7 @@
             <input type="text" name="city" id="city" placeholder="your city">
 
             <label for="state">State</label>
-            <select name="state" id="state">
+            <select name="state" id="state" class="arrow">
               <option value="" disabled selected>choose state</option>
               <optgroup label="West">
                 <option value="California">California</option>
@@ -59,7 +59,7 @@
               </optgroup>
             </select>
             
-            <label for="zip">Zip Code</label>
+            <label for="zip" class="zip-label">Zip Code</label>
             <input type="text" name="zip" id="zip" placeholder="your zip">
 
           </fieldset>
@@ -68,32 +68,37 @@
 
             <legend>Newsletter</legend>
 
-            <p>Select the newsletters you would like to receive</p>
+            <p class="lead">Select the newsletters you would like to receive</p>
 
-            <label for="html-news">
-              <input type="checkbox" id="html-news" value="html-news">HTML News
-            </label><br>
+            <input type="checkbox" id="html-news" value="html-news">
+            <label for="html-news">HTML News</label>
 
-            <label for="css-news">
-              <input type="checkbox" id="css-news" value="css-news">CSS News
-            </label><br>
-
-            <label for="javascript-news">
-              <input type="checkbox" id="javascript-news" value="javascript-news">JavaScript News
+            <input type="checkbox" id="css-news" value="css-news"><label for="css-news">CSS News
             </label>
 
-            <p>Newsletter format</p>
-
-            <label for="html">
-             <input type="radio" id="html" value="html-format">HTML
-            </label><br>
-
-            <label for="plain-text">
-             <input type="radio" id="plain-text" value="plain-text-format">Plain text
+            <input type="checkbox" id="javascript-news" value="javascript-news"><label for="javascript-news">JavaScript News
             </label>
 
-            <p>Other topics you'd like to hear about</p>
-            <textarea name="other-topics" id="other-topics"></textarea>
+            <p class="lead">Newsletter format</p>
+
+             <input type="radio" id="html" value="html-format" name="newsletter-format"><label for="html">HTML
+            </label>
+           
+             <input type="radio" id="plain-text" value="plain-text-format" name="newsletter-format"> <label for="plain-text">Plain text
+            </label>
+
+            <p class="lead">Select the products you're interested in:</p>
+
+            <input type="checkbox" id="video-games" value="video-games">
+            <label for="video-games">Video Games</label>
+
+            <input type="checkbox" id="movies" value="movies">
+            <label for="movies">Movies</label>
+
+            <input type="checkbox" id="t-shirts" value="t-shirts"><label for="t-shirts">T-Shirts</label>
+
+            <p class="lead">Other topics you'd like to hear about</p>
+            <textarea name="other-topics" id="other-topics" placeholder="What else interests you?"></textarea>
 
           </fieldset>
 

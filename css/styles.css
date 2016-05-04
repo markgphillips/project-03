@@ -8,11 +8,18 @@ body {
   font-size: 1em;
 }
 
+.lead {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 form {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: #fff;
   padding: 0 1em;
+  border: 1px solid #fa3a00;
+  box-shadow: 5px 5px 0px #fa3a00;
 }
 
 #form-header h1 {
@@ -62,9 +69,8 @@ hr {
 }
 
 fieldset {
-  border: 2px solid #fa3a00;
+  border: 1px solid #fa3a00;
   margin: 30px 0;
-  box-shadow: 5px 5px 0px #fa3a00;
   background: #fdf6e3;
 }
 
@@ -77,6 +83,7 @@ input, button, textarea, select {
   border: 2px solid #fdf6e3;
   border-radius: 3px;
   text-align: left;
+  transition: all .3s ease-in-out;
 }
 
 input {
@@ -94,7 +101,7 @@ label {
   margin-top: 20px;
 }
 
-select {
+.arrow {
   -webkit-appearance: none;
   -moz-appearance: none;
   background: url('../img/arrow.svg') no-repeat #fff 95% center;
@@ -103,11 +110,14 @@ select {
   color: #b2b2b2;
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus, 
+textarea:focus, 
+select:focus {
   outline: none;
+  background-color: #fff;
   border: 2px solid #fa6f46;
-  background: #fff;
   border-radius: 3px;
+  transition: all 0.3s ease-in-out;
 }
 
 #zip {
@@ -118,15 +128,129 @@ input:focus, textarea:focus, select:focus {
   text-align: initial;
 }
 
-#newsletter label,
-#newsletter input[type="checkbox"],
-#newsletter input[type="radio"] {
-  display: inline;
-  width: initial;
+label {
+  display: block;
+}
+
+input[type="checkbox"], input[type="radio"]{
+  display: none;
+}
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+  position: relative;
+}
+
+input[type="checkbox"] + label:before {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  content: "";
+  border: 2px solid #fa3a00;
+  padding: 2px;
+  vertical-align: middle;
+  margin-right: 10px;
+  text-align: center;
+  background: #efefef;
+}
+
+input[type="radio"]:checked + label:after,
+input[type="checkbox"]:checked + label:after {
+  content: '';
+  position: absolute;
+}
+
+input[type="checkbox"]:checked + label:after {
+  content: "\2714";
+  position: absolute;
+  left: 5px;
+  bottom: 1px;
+}
+
+input[type="radio"] + label:before {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  content: "";
+  border: 2px solid #fa3a00;
+  padding: 2px;
+  vertical-align: middle;
+  margin-right: 10px;
+  text-align: center;
+  background: #efefef;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked + label:after {
+  content: '';
+  position: absolute;
+}
+
+input[type="radio"]:checked + label:after {
+  content: "\25cf";
+  position: absolute;
+  left: 3px;
+  bottom: -6px;
+  font-size: 1.9em;
 }
 
 button {
   background: #2fd665;
+  outline: none;
   color: #fff;
   text-align: center;
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+}
+
+button:hover {
+  background-color: #22b573;
+}
+
+@media (min-width:760px) {
+  form {
+    max-width: 700px;
+  }
+
+  #contact-information label {
+    width: 25%;
+    float: left;
+  }
+  
+  #contact-information input, select {
+    width: 75%;
+  }
+
+  #state {
+    float: right;
+    margin: 8px 0;
+  }
+
+  #zip {
+    width: 75%;
+  }
+  .zip-label {
+      margin-top: 70px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+  form {
+    width: 90%;
+    max-width: 1400px;
+  }
+
+  #contact-information {
+    width: 45%;
+    float: left;
+    margin-right: 10px;
+  }
+
+  button {
+    width: 30%;
+  }
+
 }
