@@ -47,7 +47,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3583,
+				"buffer_size": 3766,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 1579,
+				"buffer_size": 1828,
 				"line_ending": "Unix"
 			}
 		}
@@ -326,6 +326,8 @@
 	],
 	"file_history":
 	[
+		"/Users/4web/Library/Application Support/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+		"/Users/4web/Library/Application Support/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
 		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/index.html",
 		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/1456DDB0-186D-467D-BBED-7817930119E3/.htaccess",
 		"/Users/4web/Library/Caches/Cleanup At Startup/Transmit/3C51680D-4CA1-45E0-92C1-C9B3A93D3823/wp-config.php",
@@ -451,9 +453,7 @@
 		"/Users/4web/Copy/javascriptbook/c02/js/update-array.js",
 		"/Users/4web/Copy/javascriptbook/c02/js/array-literal.js",
 		"/Users/4web/Copy/javascriptbook/c02/array-constructor.html",
-		"/Users/4web/Copy/javascriptbook/c02/js/array-constructor.js",
-		"/Users/4web/Copy/beginning-javascript/ch2_example5.html",
-		"/Users/4web/Copy/WebstormProjects/javascriptbook/c02/numeric-variable.html"
+		"/Users/4web/Copy/javascriptbook/c02/js/array-constructor.js"
 	],
 	"find":
 	{
@@ -617,7 +617,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -626,15 +626,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3583,
+						"buffer_size": 3766,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1922,
-								1922
+								3748,
+								3748
 							]
 						],
 						"settings":
@@ -644,10 +644,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 394.0,
+						"translation.y": 1392.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -656,15 +656,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1579,
+						"buffer_size": 1828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								524,
-								524
+								1284,
+								1284
 							]
 						],
 						"settings":
@@ -677,7 +677,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
