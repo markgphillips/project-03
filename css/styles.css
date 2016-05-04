@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Roboto', serif;
-  color: #8693a0;
+  color: #2a2a2a;
   font-size: 1em;
 }
 
@@ -72,7 +72,7 @@ input, button, textarea, select {
   display: inline-block;
   width: 100%;
   padding: 20px;
-  margin: 16px 0;
+  margin: 8px 0;
   background-color: #fbfbfb;
   border: 2px solid #fdf6e3;
   border-radius: 3px;
@@ -81,19 +81,22 @@ input, button, textarea, select {
 
 input {
   font-size: 1em;
-  font-style: italic;
-  color: #adb2b7;
 }
 
 input::-webkit-input-placeholder {
   text-align: right;
+  color: #92969b;
+  font-style: italic; 
 }
 
 label {
   display: block;
+  margin-top: 20px;
 }
 
 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   background: url('../img/arrow.svg') no-repeat #fff 95% center;
   background-size: 1em;
   margin-right: 1em;
