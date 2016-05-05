@@ -1,6 +1,24 @@
+/** Utility Rules **/
+
 * {
   box-sizing: border-box;
 }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+
+  .lead {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/** Main Rules**/
 
 body {
   font-family: 'Roboto', serif;
@@ -8,9 +26,15 @@ body {
   font-size: 1em;
 }
 
-.lead {
-  font-weight: bold;
-  font-size: 1.1em;
+h1,h2, p {
+  text-align: center;
+}
+
+hr {
+  height: 1px;
+  color: #000;
+  background-color: #000;
+  margin: 2px;
 }
 
 form {
@@ -42,6 +66,8 @@ hr {
   height: 3px;
 }
 
+/** Form Rules **/
+
 h2, legend {
   font-size: 1.4em;
   font-weight: bold;
@@ -55,17 +81,6 @@ legend {
   padding: 5px 10px;
   color: #fff;
   margin-bottom: 20px;
-}
-
-h1,h2, p {
-  text-align: center;
-}
-
-hr {
-  height: 1px;
-  color: #000;
-  background-color: #000;
-  margin: 2px;
 }
 
 fieldset {
@@ -104,7 +119,7 @@ label {
 .arrow {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: url('../img/arrow.svg') no-repeat #fff 95% center;
+  background: url('../img/arrow.svg') no-repeat #fbfbfb 95% center;
   background-size: 1em;
   margin-right: 1em;
   color: #b2b2b2;
@@ -126,10 +141,6 @@ select:focus {
 
 #newsletter p {
   text-align: initial;
-}
-
-label {
-  display: block;
 }
 
 input[type="checkbox"], input[type="radio"]{
@@ -206,6 +217,8 @@ button:hover {
   background-color: #22b573;
 }
 
+/** Media Queries **/
+
 @media (min-width:760px) {
   form {
     max-width: 700px;
@@ -243,6 +256,10 @@ button:hover {
     max-width: 1400px;
   }
 
+  fieldset {
+    min-height: 710px;
+  }
+
   #contact-information {
     width: 45%;
     float: left;
@@ -251,6 +268,6 @@ button:hover {
 
   button {
     width: 30%;
+    float: right;
   }
-
 }
