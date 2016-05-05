@@ -61,15 +61,9 @@ hr {
 
 /** Form Rules **/
 
-h2, legend {
-  font-size: 1.4em;
-  font-weight: bold;
-  color: #2d3945;
-  background: #fa3a00;
-}
-
 legend {
   background: #fa3a00;
+  font-size: 1.4em;
   margin-left: -2px;
   padding: 5px 10px;
   color: #fff;
