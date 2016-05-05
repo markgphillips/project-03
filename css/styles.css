@@ -30,13 +30,6 @@ h1,h2, p {
   text-align: center;
 }
 
-hr {
-  height: 1px;
-  color: #000;
-  background-color: #000;
-  margin: 2px;
-}
-
 form {
   max-width: 500px;
   margin: 20px auto;
@@ -72,7 +65,7 @@ h2, legend {
   font-size: 1.4em;
   font-weight: bold;
   color: #2d3945;
-  background: #fa3a;
+  background: #fa3a00;
 }
 
 legend {
