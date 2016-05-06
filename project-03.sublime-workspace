@@ -47,7 +47,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3766,
+				"buffer_size": 4370,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 1828,
+				"buffer_size": 3792,
 				"line_ending": "Unix"
 			}
 		}
@@ -322,7 +322,8 @@
 	[
 		"/Users/4web/Desktop/sandbox/front-end-dev/project-03",
 		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/css",
-		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/img"
+		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/img",
+		"/Users/4web/Desktop/sandbox/front-end-dev/project-03/mockups"
 	],
 	"file_history":
 	[
@@ -617,7 +618,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -626,15 +627,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3766,
+						"buffer_size": 4370,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3748,
-								3748
+								2458,
+								2458
 							]
 						],
 						"settings":
@@ -644,10 +645,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1392.0,
+						"translation.y": 2378.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -656,15 +657,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1828,
+						"buffer_size": 3792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1284,
-								1284
+								3785,
+								3785
 							]
 						],
 						"settings":
@@ -674,10 +675,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5106.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
